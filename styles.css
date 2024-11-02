@@ -485,7 +485,7 @@
     border: 1px solid rgb(0, 0, 0);
   }
   .btn:hover span {
-    color: black;
+    color: white;
   }
   /* ==========================contact========================== */
   #contact {
