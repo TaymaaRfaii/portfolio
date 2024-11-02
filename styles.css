@@ -330,6 +330,14 @@
   
   /* ------------------------------------------what i do-----------------------------
    */
+#education ul {
+    list-style-type: disc; /* Show bullet points */
+    padding-left: 20px;    /* Indent the list */
+}
+
+#education li {
+    margin-bottom: 10px;   /* Space between items */
+}
   #service {
     padding: 30px 0;
     width: 100%;
