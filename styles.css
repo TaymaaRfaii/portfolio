@@ -338,6 +338,9 @@
 #education li {
     margin-bottom: 10px;   /* Space between items */
 }
+nav #education ul {
+    list-style-type: disc; /* Show bullet points specifically for the education section */
+}
   #service {
     padding: 30px 0;
     width: 100%;
@@ -447,10 +450,7 @@
     font-weight: 600;
     margin-bottom: 20px;
   }
-  ul {
-    list-style-type: disc; /* Use 'disc' for filled circles, 'circle' for hollow, or 'square' for squares */
-    padding-left: 20px;    /* Adds space between the bullet and the text */
-   }
+
   .layer a {
     margin-top: 20px;
     color: rgb(0, 219, 171);
