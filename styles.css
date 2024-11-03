@@ -402,18 +402,23 @@
   /* ======================================my projects===================
   */
 
-  #projects {
-    text-align: center;
-    width: 100%;
-    background: black;
-  }
-  .projects-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-    overflow-x: auto; /* Allows horizontal scrolling if needed */
-  }
+#projects {
+  display: flex;
+  flex-direction: column; /* Aligns content vertically within #projects */
+  align-items: center; /* Centers content horizontally */
+  width: 100%;
+  background: black;
+  padding: 20px; /* Optional: adds space around the content */
+}
+
+.projects-list {
+  display: flex; /* Switch to flex to make items horizontal */
+  flex-wrap: nowrap; /* Ensures items stay in a single row */
+  gap: 40px; /* Space between items */
+  margin-top: 50px;
+  overflow-x: auto; /* Enables horizontal scrolling if needed */
+  padding: 10px 0;
+}
   .projects {
     border-radius: 10px;
     position: relative;
