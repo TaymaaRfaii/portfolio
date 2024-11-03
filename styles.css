@@ -405,6 +405,7 @@
 #projects {
   display: flex;
   flex-direction: column; /* Aligns content vertically within #projects */
+  text-align: center;
   align-items: center; /* Centers content horizontally */
   width: 100%;
   background: black;
