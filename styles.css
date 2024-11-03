@@ -412,19 +412,20 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 40px;
     margin-top: 50px;
+    overflow-x: auto; /* Allows horizontal scrolling if needed */
   }
   .projects {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
   }
-  .projects img {
-    width: auto;
-    height: 50vh;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-  }
+.projects img {
+  width: 100%; /* Ensures the image takes full width of the container */
+  height: 250px; /* Fixed height to keep images uniform */
+  object-fit: cover; /* Ensures the image scales without distortion */
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
   .layer {
     width: 100%;
     height: 0;
