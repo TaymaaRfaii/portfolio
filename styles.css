@@ -419,13 +419,13 @@
     position: relative;
     overflow: hidden;
   }
-.projects img {
-  width: 100%; /* Ensures the image takes full width of the container */
-  height: 250px; /* Fixed height to keep images uniform */
-  object-fit: cover; /* Ensures the image scales without distortion */
-  border-radius: 10px;
-  display: block;
-  transition: transform 0.5s;
+  .projects img {
+    width: auto;
+    height: 50vh;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+  }
   .layer {
     width: 100%;
     height: 0;
